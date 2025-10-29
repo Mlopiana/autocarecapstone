@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";
-$user = "root";
-$pass = ""; // your DB password
-$dbname = "autocare_system"; // change to your database name
+$host = "sql100.infinityfree.com";
+$user = "if0_40281034";
+$pass = "capstonekuno1"; // your DB password
+$dbname = "if0_40281034_autocare"; // change to your database name
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
