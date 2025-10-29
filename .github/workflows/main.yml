@@ -21,6 +21,6 @@ jobs:
           server: ftpupload.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /autocaresystem.infinityfree.me/htdocs/ # Replace with your correct path
+          server-dir: /htdocs/ # Replace with your correct path
           timeout: 86400000
           log-level: standard
